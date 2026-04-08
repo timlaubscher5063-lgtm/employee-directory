@@ -4,7 +4,7 @@ export default app;
 import employees from "#db/employees";
 
 app.get("/", (req, res) => {
-  res.send({ message: "Hello employees!" });
+  res.send("Hello employees!");
 });
 
 app.get("/employees", (req, res) => {
