@@ -11,13 +11,27 @@
     "#*": "./*.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.2.1"
   },
   "devDependencies": {
+    "nodemon": "^3.1.14",
     "supertest": "^7.1.0",
     "vitest": "^3.0.9"
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "version": "1.0.0",
+  "description": "A local organization wants to create an application that allows them to manage their employees. You are tasked with creating a proof-of-concept API using placeholder data.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timlaubscher5063-lgtm/employee-directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timlaubscher5063-lgtm/employee-directory/issues"
+  },
+  "homepage": "https://github.com/timlaubscher5063-lgtm/employee-directory#readme"
 }
